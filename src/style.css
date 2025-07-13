@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+.navbar {
+    background-color: #dab6d7;
+}
+
+button  {
+    background-color: #dab6d7;
+}
+
+button:hover {
+    background-color: #cda0c1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+ 
+.container {
+    background-color: #f3e8f7;
+}
