@@ -1,18 +1,17 @@
-
 .navbar {
-    background-color: #dab6d7;
+    background-color: #dab6d7 !important;
 }
 
-button  {
-    background-color: #dab6d7;
+button {
+    background-color: #dab6d7 !important;
 }
 
 button:hover {
-    background-color: #cda0c1;
+    background-color: #cda0c1 !important;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
- 
+
 .container {
     background-color: #f3e8f7;
 }
@@ -23,10 +22,47 @@ button:hover {
 }
 
 .rounded {
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .welcome_container {
     background-color: #FFE4AE;
     color: #333;
+}
+
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+}
+
+.middle {
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+.image-wrapper:hover .image {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.image-wrapper:hover .middle {
+    opacity: 1;
+    cursor: pointer;
 }
