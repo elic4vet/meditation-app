@@ -13,7 +13,7 @@ button:hover {
 }
 
 .container {
-    background-color: #f3e8f7;
+    background-color: #f3e8f7 !important;;
 }
 
 .nav-link {
